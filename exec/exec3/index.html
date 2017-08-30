@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>command execution</title>
+</head>
+<body>
+输入您想要ping的ip地址：
+<input id="ip" type="text"/>
+<input  type="button" value="ping" onclick="ping()"/>
+<div id="res"></div>
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>
+<script>
+function ping(){
+$.post("exec.php",{ip:$("#ip").val()},function(result){
+$("#res").html(result);
+});
+}
+</script>
+</body>
+</html> 
