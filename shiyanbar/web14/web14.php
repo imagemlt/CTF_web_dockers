@@ -34,6 +34,7 @@ foreach($_POST as $key=>$value){
 include("db.php");
 $sql="SELECT * FROM interest WHERE uname = '{$_POST['uname']}'";
 $query = mysql_query($sql); 
+if(mysql_errno())die(mysql_error());
 if (mysql_num_rows($query) == 1) { 
     $key = mysql_fetch_array($query);
     if($key['pwd'] == $_POST['pwd']) {
