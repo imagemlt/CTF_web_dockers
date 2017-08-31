@@ -18,6 +18,7 @@ RUN sed -Ei 's/^(bind-address|log)/#&/' /etc/mysql/my.cnf \
 
 RUN apt install -y apache2 php5 php5-mysql
 COPY *.php /var/www/html/
+COPY *.bak /var/www/html/
 COPY httpd-foreground /usr/bin
 EXPOSE 80
 CMD ["httpd-foreground"]
