@@ -1,5 +1,5 @@
 <?php
-$con = mysql_connect("localhost","root","iove*ctf");
+$con = mysql_connect("localhost","root","toor");
 if (!$con){
         die('Could not connect: ' . mysql_error());
 }
