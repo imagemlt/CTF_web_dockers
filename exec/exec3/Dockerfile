@@ -12,7 +12,6 @@ RUN apt-get update
 RUN apt-get install apache2 php5 -y
 
 COPY *.php /var/www/html/
-COPY index.html /var/www/html/
 
 RUN chmod a+w /var/www/html
 
