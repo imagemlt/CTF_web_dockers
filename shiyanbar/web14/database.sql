@@ -1,5 +1,5 @@
-CREATE DATABASE phpformysql;
-use phpformysql;
+CREATE DATABASE npuctf;
+use npuctf;
 CREATE TABLE interest(
 uname varchar(255) not null,
 pwd varchar(255) not null,
