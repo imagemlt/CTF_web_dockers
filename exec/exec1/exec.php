@@ -1,5 +1,5 @@
 <?php
-
+if(isset($_GET['view_source']))show_source(__FILE__);
 	// Get input
 
 	$target = $_REQUEST[ 'ip' ];
