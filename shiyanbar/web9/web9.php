@@ -7,7 +7,6 @@ welcome to simplexue
 include("db.php");
 if(!isset($_POST['user'])){
 	echo "source file in web9.php.bak";
-	die();
 }
 $user = $_POST[user];
 $pass = md5($_POST[pass]);
@@ -29,7 +28,7 @@ else {
 	
   }
   
-}
+
 
 ?>
 <!-- web9.php.bak-->
