@@ -4,7 +4,7 @@ welcome to simplexue
 </head>
 <body>
 <?php
-include(__FILE__);
+include("db.php");
 if(!isset($_POST['user'])){
 	echo "source file in web9.php.bak";
 	die();
