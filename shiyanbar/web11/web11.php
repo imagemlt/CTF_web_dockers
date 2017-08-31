@@ -5,7 +5,7 @@ welcome to simplexue
 <body>
 <?php
 
-include("../web9/db.php");
+include("db.php");
 $user = $_POST[user];
 $pass = md5($_POST[pass]);
 
@@ -24,7 +24,7 @@ $row = mysql_fetch_array($query, MYSQL_ASSOC);
   if($row['user'] != "admin") {
     echo("<p>You are not admin!</p>");
   }
-}
+
 
 ?>
 <!-- web11.php.bak-->
