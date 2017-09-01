@@ -10,9 +10,11 @@ WORKDIR $HTTPD_PREFIX
 RUN apt-get update 
 
 RUN apt-get install apache2 php5 -y
-
+RUN rm  /var/www/html/index.html
 COPY . /var/www/html/
-
+RUN rm /var/www/html/.git -rf
+RUN rm /var/www/html/Dockerfile 
+RUN rm /var/www/html/httpd-foreground 
 RUN find /var/www/html
 
 COPY httpd-foreground /usr/local/bin/
