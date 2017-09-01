@@ -23,6 +23,7 @@
 * web3 /web3/web3.php CTF{this\_is\_flag\_web3}
 * web5 /web5/web5.php CTF{php\_strcmp\_problems}
 * web6 /web6/web6.php CTF{php\_rand\_error}
+* web8 /web8/web8.php flag:{NSCTF_b73d5adfb819c64603d7237fa0d52977}
 * web7 /web7/web7.php CTF{sha1\_with\_array}
 * web12 /web12/web12.php CTF{this\_is\_flag}
 * web15 /web15/web15.php CTF{this\_is\_flag}
