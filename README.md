@@ -2,6 +2,8 @@
 
 > 该项目整理自[https://github.com/wonderkun/CTF\_web](https://github.com/wonderkun/CTF_web)，在源码基础上完善环境包装为dockerfile,如果运行过程中有任何问题请联系QQ1223530366
 
+>调整至七个镜像
+
 
 
 ## flags
@@ -9,15 +11,15 @@
 * exec1 / SEUCTF{C0mm4nd\_3x3cu7i0n}
 * exec2 / SEUCTF{C0mm4nd\_3x3cu7i0n\_upp3rc4s3}
 * exec3 / SEUCTF{C0mm4nd\_3x3cu7i0n\_!!!}
-* challenge1 challenge1.php flag{mysqli\_hooray}
-* challenge2 challenge2.php CTF{php\_execute\_command\_fun}
-* challenge3 challenge3.php flag{mysqli\_float}
-* challenge4 challenge4.php flag{mysqli\_wow}
-* challenge5 challenge5.php ctf{php\_funnnnnnnnn!}
-* challenge6 challenge6.php CTF{php\_serialize\_many\_problems}
-* challenge7 challenge7.php flag{mysqli\_hooray}
-* challenge8 challenge8.php CTF{php\_lfi\_funny}
-* challenge9 challange9.php CTF{5ql1\_upp3rc4s3}
+* challenge1 /challenge1/challenge1.php flag{mysqli\_hooray}
+* challenge2 /challenge2.php CTF{php\_execute\_command\_fun}
+* challenge3 /challenge3/challenge3.php flag{mysqli\_float}
+* challenge4 /challenge4/challenge4.php flag{mysqli\_wow}
+* challenge5 /challenge5/challenge5.php ctf{php\_funnnnnnnnn!}
+* challenge6 /challenge6/challenge6.php CTF{php\_serialize\_many\_problems}
+* challenge7 /challenge7/challenge7.php flag{mysqli\_hooray}
+* challenge8 /challenge8.php CTF{php\_lfi\_funny}
+* challenge9 challenge9/challange9.php CTF{5ql1\_upp3rc4s3}
 * web1 /web1/web1.php CTF{flag\_web1\_hehe}
 * web2 /web2/web2.php flag{extract\_made\_constant}
 * web3 /web3/web3.php CTF{this\_is\_flag\_web3}
@@ -29,7 +31,7 @@
 * web15 /web15/web15.php CTF{this\_is\_flag}
 * web16 /web16/web16.php CTF{php\_speci}
 * web17 /web17/web17.php CTF{parse\_str}
-* web11 web11.php CTF{ANOTHER\_simple\_sqli}
-* web14 web14.php CTF{UPPERCASE\_SQLI}
-* web9 web9.php CTF{simple\_sqli}
+* web11 /web11/web11.php CTF{ANOTHER\_simple\_sqli}
+* web14 /web14/web14.php CTF{UPPERCASE\_SQLI}
+* web9 /web9/web9.php CTF{simple\_sqli}
 
