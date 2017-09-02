@@ -14,7 +14,7 @@ RUN apt-get install apache2 php5 -y
 COPY *.php /var/www/html/
 
 RUN chmod a+w /var/www/html
-
+RUN rm /var/www/html/index.html
 COPY httpd-foreground /usr/local/bin/
 
 EXPOSE 80

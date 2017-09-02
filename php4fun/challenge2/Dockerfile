@@ -10,6 +10,7 @@ RUN apt-get install -y apache2 php5 php5-mysql
 
 
 COPY *.php /var/www/html/
+RUN rm /var/www/html/index.html
 COPY httpd-foreground /usr/bin
 EXPOSE 80
 CMD ["httpd-foreground"]
