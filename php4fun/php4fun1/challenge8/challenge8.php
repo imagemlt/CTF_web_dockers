@@ -1,4 +1,5 @@
 <?php 
+header("source: challenge8.php.bak");
 ini_set("open_basedir",dirname(__FILE__));
 #GOAL: file_get_content('sbztz.php')    : )
    
