@@ -3,7 +3,6 @@ set -e
 
 # Apache gets grumpy about PID files pre-existing
 rm -f /usr/local/apache2/logs/httpd.pid
-service mysql start
 apache2ctl start
 while test "1" = "1"
 do
