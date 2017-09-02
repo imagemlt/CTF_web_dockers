@@ -32,5 +32,5 @@ GRANT ALL ON npuctf.* TO 'web14'@'localhost';
 CREATE USER 'web11'@'localhost' IDENTIFIED BY 'web11'; 
 GRANT ALL ON phpformysql.* TO 'web11'@'localhost'; 
 CREATE USER 'web9'@'localhost' IDENTIFIED BY 'web9'; 
-GRANT ALL ON phpformysql2.* TO 'phpformysql2'@'localhost'; 
+GRANT ALL ON phpformysql2.* TO 'web9'@'localhost'; 
 
