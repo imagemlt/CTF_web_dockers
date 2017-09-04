@@ -16,7 +16,7 @@ if(is_array($a)){
     }
     if(is_array(@$a["bar2"])){
         if(count($a["bar2"])!==5 OR !is_array($a["bar2"][0])) die("nope");
-        $pos = array_search("nudt", $a["a2"]);
+        $pos = array_search("nudt", $a["bar2"]);
         $pos===false?die("nope"):NULL;
         foreach($a["bar2"] as $key=>$val){
             $val==="nudt"?die("nope"):NULL;
