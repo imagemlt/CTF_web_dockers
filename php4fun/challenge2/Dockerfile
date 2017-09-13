@@ -3,10 +3,9 @@ FROM ubuntu:trusty
   
 MAINTAINER image "malingtao1019@163.com"  
 # update source  
-RUN echo "deb http://archive.ubuntu.com/ubuntu trusty main universe"> /etc/apt/sources.list  
-RUN apt-get update  
-
-RUN apt-get install -y apache2 php5 php5-mysql
+RUN echo "deb http://archive.ubuntu.com/ubuntu trusty main universe"> /etc/apt/sources.list \
+  && apt-get update \
+  && apt-get install -y apache2 php5 php5-mysql
 
 
 COPY *.php /var/www/html/
