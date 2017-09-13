@@ -7,12 +7,13 @@ WORKDIR $HTTPD_PREFIX
 
 # install httpd runtime dependencies
 # https://httpd.apache.org/docs/2.4/install.html#requirements
-RUN apt-get update 
-	&& apt-get install apache2 php5 -y
+RUN apt-get update \
+	&& apt-get install apache2 php5 -y \
+	&& apt-get clean && rm -rf /var/lib/apt/lists/* 
 
 COPY *.php /var/www/html/
 
-RUN chmod a+w /var/www/html
+RUN chmod a+w /var/www/html \
 	&& rm /var/www/html/index.html
 
 COPY httpd-foreground /usr/local/bin/

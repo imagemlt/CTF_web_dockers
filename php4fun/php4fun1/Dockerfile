@@ -23,8 +23,9 @@ COPY . /var/www/html/
 RUN rm /var/www/html/index.html \
 	&& rm /var/www/html/Dockerfile \
 	&& rm /var/www/html/database.sql \
-	&& rm /var/www/html/httpd-foreground\
-	&& chown www-data:www-data /var/www/html -R
+	&& rm /var/www/html/httpd-foreground \
+	&& chown www-data:www-data /var/www/html -R \
+	&& apt-get clean && rm -rf /var/lib/apt/lists/* 
 COPY httpd-foreground /usr/bin
 EXPOSE 80
 CMD ["httpd-foreground"]
