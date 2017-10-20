@@ -35,3 +35,4 @@
 * web14 /web14/web14.php CTF{UPPERCASE\_SQLI}
 * web9 /web9/web9.php CTF{simple\_sqli}
 * web400-4 / flag{f1a4628ee1e9dccfdc511f0490c73397}
+* web300-1 / flag{660b7b8c06e3150d174a3ec9fcd7ab9d}
