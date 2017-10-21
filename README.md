@@ -2,7 +2,6 @@
 
 > 该项目整理自[https://github.com/wonderkun/CTF\_web](https://github.com/wonderkun/CTF_web)，在源码基础上完善环境包装为dockerfile,如果运行过程中有任何问题请联系QQ1223530366
 
->调整至六个镜像
 
 
 
