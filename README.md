@@ -1,6 +1,6 @@
-# CTF\_WEB\_DOCKER
+# CTF\_WEB\_DOCKERS
 
-> 整理的一些CTF web题目dockerfile
+> 整理的一些CTF web题目,配备docker环境以方便部署
 
 
 
